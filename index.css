@@ -54,3 +54,13 @@ body {
 .operator:hover {
     background-color: #e08500;
 }
+
+.equals {
+    background-color: #25d366;
+    color: #fff;
+    grid-row: span 2;
+}
+
+.zero {
+    grid-column: span 2;
+}
