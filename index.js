@@ -1,17 +1,21 @@
 const display = document.getElementById('display');
 
-function appendValue(input) {
+function values(input) {
     if (display.value === "" && ['+', '-', '*', '/'].includes(input)) {
         return;
     }
     display.value += input;
 }
 
-function clearDisplay() {
+function clearValues() {
     display.value = '';
 }
 
-function calculate() {
+function delValues() {
+    display.value = display.value.toString().slice(0,-1);
+}
+
+function equalValues() {
     try {
         if (display.value) {
             const result =  new Function(`return ${display.value}`)();
