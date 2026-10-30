@@ -8,6 +8,12 @@ body {
     margin: 0;
 }
 
+/* .header {
+     position: fixed;
+    color: #333;
+    font-size: 0.9rem;
+} */
+
 .calculator {
     background-color: #333;
     padding: 20px;
