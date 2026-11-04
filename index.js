@@ -1,5 +1,6 @@
 const display = document.getElementById('display');
 
+// This section  receives inputs from the browser 
 function values(input) {
     if (display.value === "" && ['+', '-', '*', '/'].includes(input)) {
         return;
