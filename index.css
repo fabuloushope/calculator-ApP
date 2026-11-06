@@ -19,6 +19,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    place-self: center;
+    flex-direction: column;
     background-color: #333;
     padding: 20px;
     border-radius: 10px;
@@ -61,6 +63,11 @@ body {
     transition: transform 0.7s ease-in;
 }
 
+.btn:nth-child(1),
+.btn:nth-last-child(1) {
+    background-color: rgb(70, 2, 2);
+}
+
 .operator:hover {
     background-color: #e08500;
 }
@@ -76,10 +83,11 @@ body {
 }
 
 .footer {
-    position: fixed;
-    bottom: 1rem;
+    /* position: fixed;
+    bottom: 1rem; */
     width: 100%;
     color: #333;
     font-size: 0.9rem;
     text-align: center;
+    margin-top: 2rem;
 }
