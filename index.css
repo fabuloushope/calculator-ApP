@@ -1,20 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
 body {
+    height: 100vh;
+    background-color: #bebed1;
+}
+
+.header img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 15px;
+}
+
+.calculator {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #bebed1;
-    font-family: sans-serif;
-    margin: 0;
-}
-
-/* .header {
-     position: fixed;
-    color: #333;
-    font-size: 0.9rem;
-} */
-
-.calculator {
     background-color: #333;
     padding: 20px;
     border-radius: 10px;
@@ -22,7 +26,7 @@ body {
     width: 300px;
 }
 
-#display {
+.display {
     width: 100%;
     height: 60px;
     background-color: #222;
