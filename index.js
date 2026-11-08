@@ -22,7 +22,7 @@ function equalValues() {
             const result =  new Function(`return ${display.value}`)();
 
             if (result === Infinity || isNaN(result)) {
-                display.value = "Error";
+                display.value = "eRror";
             } else {
                 display.value = result;
             }
