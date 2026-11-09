@@ -8,7 +8,6 @@
 - [Calculator App - Solution]
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
-    - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
     - [Links](#links)
   - [My process](#my-process)
@@ -22,21 +21,13 @@
 
 ## Overview
 
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout for the page depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
-- Open and close the navigation menu at any screen size (optional JavaScript)
-
 ### Screenshot
 
 ![](./assets/screenshot.png alt="calculator image")
+![](./assets/mobile.png alt="mobile image")
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -56,8 +47,6 @@ Users should be able to:
 
 To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
 ```js
 function delValues() {
     display.value = display.value.toString().slice(0,-1);
@@ -78,10 +67,12 @@ I really didn't know much about that but through the buiclcding proccess of this
 -->
 
 ### AI Collaboration
+- Used VS Code internal copilot AI.
+- My question I asked it ```why cant .calculator be positioned in the center even though am using align-items center``` its answer ```align-items: center on .calculator centers its children, not the calculator itself. The calculator currently has display: flex, but its parent (body) isn’t a flex or grid container, so it doesn’t position the calculator in the page.```
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Personal Portfolio](https://github.com/fabuloushope?tab=overview)
 - Frontend Mentor - [@fabuloushope](https://www.frontendmentor.io/profile/fabuloushope)
 - Twitter - [@fabuloushope_](https://www.x.com/fabuloushope_)
 
