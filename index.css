@@ -9,6 +9,10 @@ body {
     background-color: #bebed1;
 }
 
+header {
+    margin: 1rem;
+}
+
 .header img {
     width: 4rem;
     height: 4rem;
@@ -90,4 +94,15 @@ body {
     font-size: 0.9rem;
     text-align: center;
     margin-top: 2rem;
+}
+
+@media (max-width: 900px) {
+    .header img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .header {
+        margin: 20px;
+    }
 }
