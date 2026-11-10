@@ -62,11 +62,8 @@ I really didn't know much about that but through the buiclcding proccess of this
 
 ### Useful resources
 
-<!-- - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ.
--->
-
 ### AI Collaboration
+
 - Used VS Code internal copilot AI.
 - My question I asked it ```why cant .calculator be positioned in the center even though am using align-items center``` its answer ```align-items: center on .calculator centers its children, not the calculator itself. The calculator currently has display: flex, but its parent (body) isn’t a flex or grid container, so it doesn’t position the calculator in the page.```
 
